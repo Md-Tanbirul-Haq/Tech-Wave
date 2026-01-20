@@ -1,13 +1,76 @@
-*{
-    background-color:#1A0B2E;
+body {
+    background-color: #1A0B2E;
 }
-.margin_class{
+
+.margin_class {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
-.btn{
-    background: linear-gradient(rgb(180, 48, 48),rgb(49, 101, 49),rgb(40, 40, 114));
+
+.btn {
+    background: linear-gradient(rgb(180, 48, 48), rgb(49, 101, 49), rgb(40, 40, 114));
     padding: 10px 20px;
     border-radius: 20px;
+}
+
+#banner {
+    height: 800px;
+    background-image: url("../images/hero-bg.png");
+    background-position: 50%;
+    background-size: cover;
+
+
+
+
+}
+
+.banner_img {
+    display: flex;
+    justify-content: center;
+}
+
+#banner img.outer {
+    width: 370px;
+    height: 370px;
+    margin-top: 100px;
+}
+
+.inner_img {
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    margin-top: 200px;
+
+}
+
+.btn-1 {
+    height: 50px;
+    background-color: green;
+    padding: 5px 20px;
+    border-radius: 20px;
+    position: absolute;
+    font-weight: bold;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.banner_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button img{
+    width: 20px;
+    height: 20px;
+}
+button{
+    font-size: 20px;
+}
+.btn-2{
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: 1px solid green;
+    background: transparent;
 }
