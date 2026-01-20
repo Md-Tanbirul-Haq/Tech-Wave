@@ -147,3 +147,27 @@ iframe{
    border-top-left-radius: 20px;
    border-top-right-radius: 20px;
 }
+#meet{
+    margin-bottom: 100px;
+}
+.meet{
+    color: white;
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    box-shadow: 4px 4px 4px 4px blueviolet;
+    border-radius: 20px;
+
+}
+footer{
+    background-image: url(images/footer-bg.png);
+    background-size: cover;
+    height: 400px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
