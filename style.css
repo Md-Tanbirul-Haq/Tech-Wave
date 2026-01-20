@@ -100,6 +100,7 @@ button{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
+    
 
 }
 .tech_wave{
@@ -126,4 +127,23 @@ button{
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.video{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 100px;
+    
+}
+.video_{
+    background-color:  blueviolet;
+    border-radius: 20px;
+    gap: 20px;
+    padding-bottom: 20px;
+    color: white;
+    width: 380px;
+}
+iframe{
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
 }
