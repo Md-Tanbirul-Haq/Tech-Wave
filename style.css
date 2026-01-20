@@ -94,3 +94,36 @@ button{
     justify-content: space-between;
     margin-bottom: 100px;
 }
+#tech_wave{
+    color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+
+}
+.tech_wave{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    grid-template-rows: 1fr;
+}
+.tech{
+    border-radius: 20px;
+    
+    padding: 50px 20px;
+    margin: 10px;
+    box-shadow: 4px 4px 4px 4px blueviolet;
+}
+.tech_{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+.right_side{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
